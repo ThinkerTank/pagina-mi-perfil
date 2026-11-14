@@ -1,0 +1,100 @@
+/* Estilos de las tres páginas.
+   Este archivo tiene que estar en la misma carpeta que los .html */
+
+/* El fondo y la letra de toda la página */
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f1ec;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+/* La caja blanca que va en el centro */
+.centro {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #1f3a5f;
+}
+
+h2 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+    color: #1f3a5f;
+}
+
+/* Texto debajo del título */
+.subtitulo {
+    color: #6b6b6b;
+    font-size: 18px;
+}
+
+.texto {
+    text-align: left;
+}
+
+/* La lista de datos del perfil */
+.datos {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+}
+
+.datos li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/* Cada trabajo de la tercera página */
+.trabajo {
+    text-align: left;
+    background-color: #f8f7f4;
+    border-left: 4px solid #1f3a5f;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+.materia {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+/* El botón azul */
+.boton {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 14px 32px;
+    background-color: #1f3a5f;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+/* Cuando pasas el mouse por encima del botón */
+.boton:hover {
+    background-color: #2d5486;
+}
+
+/* El enlace pequeño para devolverse */
+.volver {
+    display: block;
+    margin-top: 24px;
+    color: #1f3a5f;
+    font-size: 15px;
+}
