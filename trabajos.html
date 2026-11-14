@@ -8,40 +8,52 @@
 </head>
 <body>
 
-    <!-- PÁGINA 3: los trabajos entregados -->
+    <!-- PÁGINA 3: los enlaces a los trabajos entregados -->
     <main class="centro">
 
         <h1>Mis trabajos</h1>
 
-        <p class="subtitulo">Estos son los trabajos que he entregado.</p>
+        <p class="subtitulo">
+            Haz clic en cualquiera para descargarlo y abrirlo en Word.
+        </p>
 
-        <!-- CAMBIAR: cada bloque <article> es un trabajo.
-             Copia y pega un bloque entero para agregar otro,
-             o borra los que sobren. -->
+        <!-- Cada <li> es un trabajo.
+             El href apunta al archivo dentro de la carpeta "trabajos".
+             Debajo se muestra el enlace completo, como pediste.
 
-        <article class="trabajo">
-            <h2>Nombre del trabajo 1</h2>
-            <p class="materia">Materia · Fecha de entrega</p>
-            <p class="texto">
-                Escribe aquí de qué se trataba el trabajo y qué hiciste.
-            </p>
-        </article>
+             Para agregar otro: sube el archivo a la carpeta "trabajos"
+             y copia un bloque <li> entero cambiando el nombre. -->
 
-        <article class="trabajo">
-            <h2>Nombre del trabajo 2</h2>
-            <p class="materia">Materia · Fecha de entrega</p>
-            <p class="texto">
-                Escribe aquí de qué se trataba el trabajo y qué hiciste.
-            </p>
-        </article>
+        <ul class="lista-trabajos">
 
-        <article class="trabajo">
-            <h2>Nombre del trabajo 3</h2>
-            <p class="materia">Materia · Fecha de entrega</p>
-            <p class="texto">
-                Escribe aquí de qué se trataba el trabajo y qué hiciste.
-            </p>
-        </article>
+            <li>
+                <a href="trabajos/articulo-de-opinion.docx">
+                    Artículo de opinión sobre Julián de Zubiría Samper
+                </a>
+                <span class="direccion">
+                    https://thinkertank.github.io/pagina-mi-perfil/trabajos/articulo-de-opinion.docx
+                </span>
+            </li>
+
+            <li>
+                <a href="trabajos/informatica.docx">
+                    Informática
+                </a>
+                <span class="direccion">
+                    https://thinkertank.github.io/pagina-mi-perfil/trabajos/informatica.docx
+                </span>
+            </li>
+
+            <li>
+                <a href="trabajos/manual-de-mantenimiento.docx">
+                    Manual de mantenimiento
+                </a>
+                <span class="direccion">
+                    https://thinkertank.github.io/pagina-mi-perfil/trabajos/manual-de-mantenimiento.docx
+                </span>
+            </li>
+
+        </ul>
 
         <a class="volver" href="perfil.html">Volver al perfil</a>
 
